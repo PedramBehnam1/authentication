@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 639px) {
+    .container{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 641px) and (min-width: 537px) {
+    .container{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 539px) and (min-width: 409px) {
+    .container{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 411px) and (min-width: 280px) {
+    .container{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 282px) {
+    .container{
+        font-size: 7px;
+    }
+}
